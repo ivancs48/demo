@@ -1,0 +1,75 @@
+20:30:22.733 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_211 on 7RT7PQ3 with PID 17420 (C:\Users\icalderons\Documents\workspace-spring\demo\target\classes started by icalderons in C:\Users\icalderons\Documents\workspace-spring\demo)
+20:30:22.739 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+20:30:23.530 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+20:30:23.617 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 818 ms
+20:30:23.670 [main] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'restAplication' defined in file [C:\Users\icalderons\Documents\workspace-spring\demo\target\classes\com\example\demo\RestAplication.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.demo.RestAplication]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The import org.slf4j cannot be resolved
+	The import org.slf4j cannot be resolved
+	Logger cannot be resolved to a type
+	LoggerFactory cannot be resolved
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+
+20:30:23.682 [main] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+20:30:23.692 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'restAplication' defined in file [C:\Users\icalderons\Documents\workspace-spring\demo\target\classes\com\example\demo\RestAplication.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.demo.RestAplication]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The import org.slf4j cannot be resolved
+	The import org.slf4j cannot be resolved
+	Logger cannot be resolved to a type
+	LoggerFactory cannot be resolved
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1316) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.7.jar:5.3.7]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.7.jar:5.3.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) [spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438) [spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337) [spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336) [spring-boot-2.5.0.jar:2.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325) [spring-boot-2.5.0.jar:2.5.0]
+	at com.example.demo.DemoApplication.main(DemoApplication.java:10) [classes/:?]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.demo.RestAplication]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The import org.slf4j cannot be resolved
+	The import org.slf4j cannot be resolved
+	Logger cannot be resolved to a type
+	LoggerFactory cannot be resolved
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:225) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308) ~[spring-beans-5.3.7.jar:5.3.7]
+	... 17 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The import org.slf4j cannot be resolved
+	The import org.slf4j cannot be resolved
+	Logger cannot be resolved to a type
+	LoggerFactory cannot be resolved
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+	Logger cannot be resolved to a type
+
+	at com.example.demo.RestAplication.<init>(RestAplication.java:3) ~[classes/:?]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_211]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_211]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_211]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_211]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:212) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.3.7.jar:5.3.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308) ~[spring-beans-5.3.7.jar:5.3.7]
+	... 17 more
